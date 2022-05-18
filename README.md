@@ -1,5 +1,5 @@
-# blob_loss
-blob loss example implementation.
+# blob loss: instance imbalance aware loss functions for semantic segmentation
+blob loss - example implementation.
 
 ## manuscript
 [https://arxiv.org/abs/2205.08209](https://arxiv.org/abs/2205.08209)
