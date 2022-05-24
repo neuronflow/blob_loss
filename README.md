@@ -13,7 +13,7 @@ Please cite blob loss when using it:
   
   url = {https://arxiv.org/abs/2205.08209},
   
-  author = {Kofler, Florian and Shit, Suprosanna and Ezhov, Ivan and Fidon, Lucas and Al-Maskari, Rami and Li, Hongwei and Bhatia, Harsharan and Loehr, Timo and Piraud, Marie and Erturk, Ali and Kirschke, Jan and Peeken, Jan and Vercauteren, Tom and Zimmer, Claus and Wiestler, Benedikt and Menze, Bjoern},
+  author = {Kofler, Florian and Shit, Suprosanna and Ezhov, Ivan and Fidon, Lucas and Horvath, Izabela and Al-Maskari, Rami and Li, Hongwei and Bhatia, Harsharan and Loehr, Timo and Piraud, Marie and Erturk, Ali and Kirschke, Jan and Peeken, Jan and Vercauteren, Tom and Zimmer, Claus and Wiestler, Benedikt and Menze, Bjoern},
   
   keywords = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), Image and Video Processing (eess.IV), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
   
