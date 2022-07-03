@@ -126,8 +126,8 @@ def compute_blob_loss_multi(
 
                 the_label = element_label == ula
                 the_label_int = the_label.int()
-
                 vprint("the_label:", torch.count_nonzero(the_label))
+
 
                 # debugging
                 # masked_label = the_label * label_mask
@@ -145,16 +145,16 @@ def compute_blob_loss_multi(
 
                 label_loss.append(blob_loss)
 
-            # compute mean
-            vprint("label_loss:", label_loss)
-            # mean_label_loss = 0
-            vprint("blobs in crop:", len(label_loss))
-            if not len(label_loss) == 0:
-                mean_label_loss = sum(label_loss) / len(label_loss)
-                # mean_label_loss = sum(label_loss) / \
-                #     torch.count_nonzero(label_loss)
-                vprint("mean_label_loss", mean_label_loss)
-                element_blob_loss.append(mean_label_loss)
+        # compute mean
+        vprint("label_loss:", label_loss)
+        # mean_label_loss = 0
+        vprint("blobs in crop:", len(label_loss))
+        if not len(label_loss) == 0:
+            mean_label_loss = sum(label_loss) / len(label_loss)
+            # mean_label_loss = sum(label_loss) / \
+            #     torch.count_nonzero(label_loss)
+            vprint("mean_label_loss", mean_label_loss)
+            element_blob_loss.append(mean_label_loss)
 
     # compute mean
     vprint("element_blob_loss:", element_blob_loss)
