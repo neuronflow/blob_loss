@@ -5,7 +5,8 @@ blob loss - example implementation.
 [https://arxiv.org/abs/2205.08209](https://arxiv.org/abs/2205.08209)
 
 ## computation time
-note that this implementation is not optimized for computation time
+note that this implementation is not optimized for computation time.
+I would love to see your more efficient implementation!
 
 ## citation
 Please cite blob loss when using it:
