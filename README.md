@@ -1,12 +1,10 @@
 # blob loss: instance imbalance aware loss functions for semantic segmentation
 <img width="1337" alt="bloss_illustration" src="https://user-images.githubusercontent.com/7048826/213311243-e5590466-ced4-4bad-8b69-2b5f30a37c6e.png">
 
-blob loss - example implementation.
 
-## computation time
-note that this implementation is not optimized for computation time.
-I would love to see
- your more efficient implementation!
+## example implementation - computation time
+note that this example implementation is not optimized for computation time.
+We would love to see your more efficient implementation!
 
 ## manuscript
 [https://arxiv.org/abs/2205.08209](https://arxiv.org/abs/2205.08209)
