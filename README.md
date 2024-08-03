@@ -31,3 +31,6 @@ Please cite blob loss when using it:
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ```
+
+## evaluation
+HINT: Our new project [panoptica](https://github.com/BrainLesion/panoptica) might be helpful in evaluating your multi-instance segmentation problem.
